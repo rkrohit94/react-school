@@ -6,13 +6,11 @@ import sinon from 'sinon';
 import Box from './Box'
 
 describe('Box', () => {
-  it('Should render with out erroraaaaaabbbb', () => {
-      console.error('BOX***********************************************************')
+  it('Should render with out erroraaaaaabbbb', () => {  
     const wrapper = shallow(<Box />)
     expect(wrapper).to.be.ok;
   })
   it('Should get the text from its component', () => {
-      console.log('BOX***********************************************************')
     const wrapper = shallow(<Box text="thiru@hotmail.com" />)
     expect(wrapper.text()).to.include('thiru@hotmail.com');
   })
