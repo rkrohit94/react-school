@@ -52,11 +52,11 @@ export default class Registration extends React.Component{
 
   render(){
     const students = [];
-    for(let i =0; i<this.state.student.length; i++){
-      students.setState(id: this.state.student.get(i).id , text : this.state.student.get(i).email , css:"selected", click: {this.clickMethod});
-    }
-    this.state.student.map(element => {element.email})
-    console.log("=============",studentList);
+    // for(let i =0; i<this.state.student.length; i++){
+    //   students.setState(id: this.state.student.get(i).id , text : this.state.student.get(i).email , css:"selected", click: {this.clickMethod});
+    // }
+    // this.state.student.map(element => {element.email})
+    // console.log("=============",studentList);
     return (
       <div className="registration">
         <h3>Registration</h3>
